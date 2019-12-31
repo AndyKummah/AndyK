@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.18rem;
+}
+
+/****Nav Bar****/
+
+nav{
+    text-align: right;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 4rem 2rem 2rem 0;
+}
+
+#top-container {
+    background-color: #d3f4ff;
+    position: relative;
+}
+
+.top-cloud-img {
+    position: relative;
+    left: 250px;
+    width: 5%;
+}
+
+h1 {
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem; /*------ 1rem = 16px = 100% ------*/
+    color: #66BFBF;
+}
+
+.web {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+    .bottom-cloud-img {
+    position: relative;
+    width: 5%;
+    right: 300px;
+}
+
+.hills-img {
+    width: 100%;
+}
+
+.middle-container {
+    background-color: #e1f7f8;
+    padding-top: 50px;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #11999E;
+}
+
+.crab-img {
+    width: 15%;
+}
+
+.p-intro {
+    width: 30%;
+    margin: 5% auto;
+}
+
+hr {
+    border-style: dotted none none; 
+    border-width: 5px;
+    width: 5%;
+    color: #e7a4e4;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6.25% auto 6.25% auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.graphic-design-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.father-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.p-contact-me {
+    padding: 0 0 5rem 0;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #000000;
+	background:linear-gradient(to bottom, #66BFBF 5%, #15686b 100%);
+	background-color:#66BFBF;
+	border-radius:6px;
+	border: 1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #0f0e0f;
+    margin-bottom: 50px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #15686b 5%, #66BFBF 100%);
+	background-color:#15686b;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px 0 0 0;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding: 2rem 0;
+    margin: 0;
+}
